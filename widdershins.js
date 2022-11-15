@@ -36,7 +36,7 @@ axios.get('https://console.redhat.com/api/insights/v1/openapi.json')
     //options.source = sourceUrl; // if resolve is true, must be set to full path or URL of the input document
     converter.convert(response.data,options)
     .then(str => {
-        fs.writeFileSync(__dirname + '/source/includes/_advisor.md', str, 'utf8');
+        fs.writeFileSync(__dirname + '/docs/advisor.md', str, 'utf8');
     })
 .catch(err => {
     console.error(err);
@@ -55,7 +55,7 @@ axios.get('https://console.redhat.com/api/insights/v1/openapi.json')
     //options.source = sourceUrl; // if resolve is true, must be set to full path or URL of the input document
     converter.convert(response.data,options)
     .then(str => {
-        fs.writeFileSync(__dirname + '/source/includes/_automation-hub.md', str, 'utf8');
+        fs.writeFileSync(__dirname + '/docs/automation-hub.md', str, 'utf8');
     })
 .catch(err => {
     console.error(err);
