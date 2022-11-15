@@ -12,9 +12,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: Use Node.js 
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16'
+    - run: npm ci
+    - run: npm run build --if-present
         
     - name: Convert OpenAPI json to markdown
-      run: node widdershins.js
+    - run: node widdershins.js
       
     - uses: actions/checkout@v2
     - name: Install mkdocs using Pip
