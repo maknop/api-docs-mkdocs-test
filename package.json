@@ -1,0 +1,22 @@
+{
+  "name": "api-docs-mkdocs-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "widdershins.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maknop/api-docs-mkdocs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maknop/api-docs-mkdocs-test/issues"
+  },
+  "homepage": "https://github.com/maknop/api-docs-mkdocs-test#readme"
+}
