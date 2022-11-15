@@ -22,7 +22,6 @@ jobs:
     - name: Convert OpenAPI json to markdown
     - run: node widdershins.js
       
-    - uses: actions/checkout@v2
     - name: Install mkdocs using Pip
       uses: actions/setup-python@v4
       with:
