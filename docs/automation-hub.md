@@ -21841,8 +21841,8 @@ func main() {
 ```javascript
 const inputBody = '{
   "upload": "http://example.com",
-  "file": "string",
   "repository": "http://example.com",
+  "file": "string",
   "name": "string",
   "namespace": "string",
   "version": "string"
@@ -21906,8 +21906,8 @@ Trigger an asynchronous task to create content,optionally create new repository 
 
 ```yaml
 upload: http://example.com
-file: string
 repository: http://example.com
+file: string
 name: string
 namespace: string
 version: string
@@ -27797,13 +27797,13 @@ Distribution, but not both.
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "base_path": "string",
-      "name": "string",
       "content_guard": "http://example.com",
       "pulp_labels": {},
       "pulp_created": "2019-08-24T14:15:22Z",
+      "base_path": "string",
       "repository": "http://example.com",
       "pulp_href": "http://example.com",
+      "name": "string",
       "repository_version": "http://example.com",
       "registry_path": "string",
       "namespace": "http://example.com",
@@ -27858,11 +27858,11 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -27926,11 +27926,11 @@ Trigger an asynchronous create task
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -27938,11 +27938,11 @@ Trigger an asynchronous create task
 ```
 
 ```yaml
-base_path: string
-name: string
 content_guard: http://example.com
 pulp_labels: {}
+base_path: string
 repository: http://example.com
+name: string
 repository_version: http://example.com
 private: true
 description: string
@@ -28078,13 +28078,13 @@ Distribution, but not both.
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
   "pulp_created": "2019-08-24T14:15:22Z",
+  "base_path": "string",
   "repository": "http://example.com",
   "pulp_href": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "registry_path": "string",
   "namespace": "http://example.com",
@@ -28137,11 +28137,11 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -28205,11 +28205,11 @@ Trigger an asynchronous update task
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -28217,11 +28217,11 @@ Trigger an asynchronous update task
 ```
 
 ```yaml
-base_path: string
-name: string
 content_guard: http://example.com
 pulp_labels: {}
+base_path: string
 repository: http://example.com
+name: string
 repository_version: http://example.com
 private: true
 description: string
@@ -28289,11 +28289,11 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -28357,11 +28357,11 @@ Trigger an asynchronous partial update task
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -28369,11 +28369,11 @@ Trigger an asynchronous partial update task
 ```
 
 ```yaml
-base_path: string
-name: string
 content_guard: http://example.com
 pulp_labels: {}
+base_path: string
 repository: http://example.com
+name: string
 repository_version: http://example.com
 private: true
 description: string
@@ -37580,26 +37580,26 @@ This is a tech preview feature. The functionality may change in the future.
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "connect_timeout": 0,
-      "ca_cert": "string",
-      "name": "string",
-      "proxy_url": "string",
-      "pulp_labels": {},
-      "total_timeout": 0,
-      "tls_validation": true,
-      "pulp_last_updated": "2019-08-24T14:15:22Z",
-      "pulp_created": "2019-08-24T14:15:22Z",
       "max_retries": 0,
-      "pulp_href": "http://example.com",
-      "sock_read_timeout": 0,
-      "sock_connect_timeout": 0,
-      "rate_limit": 0,
-      "url": "string",
       "client_cert": "string",
+      "rate_limit": 0,
       "headers": [
         {}
       ],
+      "pulp_created": "2019-08-24T14:15:22Z",
+      "connect_timeout": 0,
+      "pulp_last_updated": "2019-08-24T14:15:22Z",
+      "url": "string",
       "download_concurrency": 1,
+      "tls_validation": true,
+      "pulp_labels": {},
+      "pulp_href": "http://example.com",
+      "sock_read_timeout": 0,
+      "proxy_url": "string",
+      "ca_cert": "string",
+      "total_timeout": 0,
+      "sock_connect_timeout": 0,
+      "name": "string",
       "metadata_only": true,
       "git_ref": "string"
     }
@@ -37651,28 +37651,28 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }';
@@ -37737,55 +37737,55 @@ This is a tech preview feature. The functionality may change in the future.
 
 ```json
 {
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
 ```
 
 ```yaml
-proxy_username: string
-connect_timeout: 0
-ca_cert: string
-name: string
-proxy_url: string
-proxy_password: string
-client_key: string
-pulp_labels: {}
-total_timeout: 0
-tls_validation: true
-username: string
 max_retries: 0
-sock_read_timeout: 0
-password: string
-sock_connect_timeout: 0
-rate_limit: 0
-url: string
 client_cert: string
+rate_limit: 0
 headers:
   - {}
+proxy_password: string
+connect_timeout: 0
+client_key: string
+url: string
+proxy_username: string
+username: string
 download_concurrency: 1
+tls_validation: true
+pulp_labels: {}
+password: string
+sock_read_timeout: 0
+proxy_url: string
+ca_cert: string
+total_timeout: 0
+sock_connect_timeout: 0
+name: string
 metadata_only: true
 git_ref: string
 
@@ -37803,26 +37803,26 @@ git_ref: string
 
 ```json
 {
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "pulp_last_updated": "2019-08-24T14:15:22Z",
-  "pulp_created": "2019-08-24T14:15:22Z",
   "max_retries": 0,
-  "pulp_href": "http://example.com",
-  "sock_read_timeout": 0,
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "pulp_created": "2019-08-24T14:15:22Z",
+  "connect_timeout": 0,
+  "pulp_last_updated": "2019-08-24T14:15:22Z",
+  "url": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "pulp_href": "http://example.com",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
@@ -37939,26 +37939,26 @@ This is a tech preview feature. The functionality may change in the future.
 
 ```json
 {
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "pulp_last_updated": "2019-08-24T14:15:22Z",
-  "pulp_created": "2019-08-24T14:15:22Z",
   "max_retries": 0,
-  "pulp_href": "http://example.com",
-  "sock_read_timeout": 0,
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "pulp_created": "2019-08-24T14:15:22Z",
+  "connect_timeout": 0,
+  "pulp_last_updated": "2019-08-24T14:15:22Z",
+  "url": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "pulp_href": "http://example.com",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
@@ -38008,28 +38008,28 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }';
@@ -38092,55 +38092,55 @@ Trigger an asynchronous update task
 
 ```json
 {
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
 ```
 
 ```yaml
-proxy_username: string
-connect_timeout: 0
-ca_cert: string
-name: string
-proxy_url: string
-proxy_password: string
-client_key: string
-pulp_labels: {}
-total_timeout: 0
-tls_validation: true
-username: string
 max_retries: 0
-sock_read_timeout: 0
-password: string
-sock_connect_timeout: 0
-rate_limit: 0
-url: string
 client_cert: string
+rate_limit: 0
 headers:
   - {}
+proxy_password: string
+connect_timeout: 0
+client_key: string
+url: string
+proxy_username: string
+username: string
 download_concurrency: 1
+tls_validation: true
+pulp_labels: {}
+password: string
+sock_read_timeout: 0
+proxy_url: string
+ca_cert: string
+total_timeout: 0
+sock_connect_timeout: 0
+name: string
 metadata_only: true
 git_ref: string
 
@@ -38207,28 +38207,28 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }';
@@ -38291,55 +38291,55 @@ Trigger an asynchronous partial update task
 
 ```json
 {
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
 ```
 
 ```yaml
-proxy_username: string
-connect_timeout: 0
-ca_cert: string
-name: string
-proxy_url: string
-proxy_password: string
-client_key: string
-pulp_labels: {}
-total_timeout: 0
-tls_validation: true
-username: string
 max_retries: 0
-sock_read_timeout: 0
-password: string
-sock_connect_timeout: 0
-rate_limit: 0
-url: string
 client_cert: string
+rate_limit: 0
 headers:
   - {}
+proxy_password: string
+connect_timeout: 0
+client_key: string
+url: string
+proxy_username: string
+username: string
 download_concurrency: 1
+tls_validation: true
+pulp_labels: {}
+password: string
+sock_read_timeout: 0
+proxy_url: string
+ca_cert: string
+total_timeout: 0
+sock_connect_timeout: 0
+name: string
 metadata_only: true
 git_ref: string
 
@@ -46534,15 +46534,15 @@ Created - during push operation, removed - with ContainerDistribution removal.
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "retain_repo_versions": 1,
-      "name": "string",
-      "versions_href": "http://example.com",
-      "latest_version_href": "http://example.com",
       "pulp_labels": {},
       "pulp_created": "2019-08-24T14:15:22Z",
       "manifest_signing_service": "http://example.com",
       "description": "string",
-      "pulp_href": "http://example.com"
+      "pulp_href": "http://example.com",
+      "versions_href": "http://example.com",
+      "retain_repo_versions": 1,
+      "latest_version_href": "http://example.com",
+      "name": "string"
     }
   ]
 }
@@ -46661,15 +46661,15 @@ Created - during push operation, removed - with ContainerDistribution removal.
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
-  "versions_href": "http://example.com",
-  "latest_version_href": "http://example.com",
   "pulp_labels": {},
   "pulp_created": "2019-08-24T14:15:22Z",
   "manifest_signing_service": "http://example.com",
   "description": "string",
-  "pulp_href": "http://example.com"
+  "pulp_href": "http://example.com",
+  "versions_href": "http://example.com",
+  "retain_repo_versions": 1,
+  "latest_version_href": "http://example.com",
+  "name": "string"
 }
 ```
 
@@ -46717,11 +46717,11 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -46782,20 +46782,20 @@ Trigger an asynchronous update task
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }
 ```
 
 ```yaml
-retain_repo_versions: 1
-name: string
 pulp_labels: {}
 manifest_signing_service: http://example.com
 description: string
+retain_repo_versions: 1
+name: string
 
 ```
 
@@ -46860,11 +46860,11 @@ func main() {
 
 ```javascript
 const inputBody = '{
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }';
 const headers = {
   'Content-Type':'application/json',
@@ -46925,20 +46925,20 @@ Trigger an asynchronous partial update task
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }
 ```
 
 ```yaml
-retain_repo_versions: 1
-name: string
 pulp_labels: {}
 manifest_signing_service: http://example.com
 description: string
+retain_repo_versions: 1
+name: string
 
 ```
 
@@ -73334,26 +73334,26 @@ A repository must be specified, to which the container image content will be add
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "connect_timeout": 0,
-      "ca_cert": "string",
-      "name": "string",
-      "proxy_url": "string",
-      "pulp_labels": {},
-      "total_timeout": 0,
-      "tls_validation": true,
-      "pulp_last_updated": "2019-08-24T14:15:22Z",
-      "pulp_created": "2019-08-24T14:15:22Z",
       "max_retries": 0,
-      "pulp_href": "http://example.com",
-      "sock_read_timeout": 0,
-      "sock_connect_timeout": 0,
-      "rate_limit": 0,
-      "url": "string",
       "client_cert": "string",
+      "rate_limit": 0,
       "headers": [
         {}
       ],
+      "pulp_created": "2019-08-24T14:15:22Z",
+      "connect_timeout": 0,
+      "pulp_last_updated": "2019-08-24T14:15:22Z",
+      "url": "string",
       "download_concurrency": 1,
+      "tls_validation": true,
+      "pulp_labels": {},
+      "pulp_href": "http://example.com",
+      "sock_read_timeout": 0,
+      "proxy_url": "string",
+      "ca_cert": "string",
+      "total_timeout": 0,
+      "sock_connect_timeout": 0,
+      "name": "string",
       "metadata_only": true,
       "git_ref": "string"
     }
@@ -73503,13 +73503,13 @@ A repository must be specified, to which the container image content will be add
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "base_path": "string",
-      "name": "string",
       "content_guard": "http://example.com",
       "pulp_labels": {},
       "pulp_created": "2019-08-24T14:15:22Z",
+      "base_path": "string",
       "repository": "http://example.com",
       "pulp_href": "http://example.com",
+      "name": "string",
       "repository_version": "http://example.com",
       "registry_path": "string",
       "namespace": "http://example.com",
@@ -73576,15 +73576,15 @@ A repository must be specified, to which the container image content will be add
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
   "results": [
     {
-      "retain_repo_versions": 1,
-      "name": "string",
-      "versions_href": "http://example.com",
-      "latest_version_href": "http://example.com",
       "pulp_labels": {},
       "pulp_created": "2019-08-24T14:15:22Z",
       "manifest_signing_service": "http://example.com",
       "description": "string",
-      "pulp_href": "http://example.com"
+      "pulp_href": "http://example.com",
+      "versions_href": "http://example.com",
+      "retain_repo_versions": 1,
+      "latest_version_href": "http://example.com",
+      "name": "string"
     }
   ]
 }
@@ -74364,28 +74364,28 @@ A serializer for Collection Remotes.
 
 ```json
 {
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
@@ -74398,26 +74398,26 @@ A serializer for Git Collection Remotes.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|proxy_username|string¦null|false|write-only|The username to authenticte to the proxy.|
-|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
-|name|string|false|none|A unique name for this remote.|
-|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
-|proxy_password|string¦null|false|write-only|The password to authenticate to the proxy. Extra leading and trailing whitespace characters are not trimmed.|
-|client_key|string¦null|false|write-only|A PEM encoded private key used for authentication.|
-|pulp_labels|object|false|none|none|
-|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
-|username|string¦null|false|write-only|The username to be used for authentication when syncing.|
 |max_retries|integer¦null|false|none|Maximum number of retry attempts after a download failure. If not set then the default value (3) will be used.|
-|sock_read_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_read (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|password|string¦null|false|write-only|The password to be used for authentication when syncing. Extra leading and trailing whitespace characters are not trimmed.|
-|sock_connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
-|url|string|false|none|The URL of an external content source.|
 |client_cert|string¦null|false|none|A PEM encoded client certificate used for authentication.|
+|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
 |headers|[object]|false|none|Headers for aiohttp.Clientsession|
+|proxy_password|string¦null|false|write-only|The password to authenticate to the proxy. Extra leading and trailing whitespace characters are not trimmed.|
+|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|client_key|string¦null|false|write-only|A PEM encoded private key used for authentication.|
+|url|string|false|none|The URL of an external content source.|
+|proxy_username|string¦null|false|write-only|The username to authenticte to the proxy.|
+|username|string¦null|false|write-only|The username to be used for authentication when syncing.|
 |download_concurrency|integer¦null|false|none|Total number of simultaneous connections. If not set then the default value will be used.|
+|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
+|pulp_labels|object|false|none|none|
+|password|string¦null|false|write-only|The password to be used for authentication when syncing. Extra leading and trailing whitespace characters are not trimmed.|
+|sock_read_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_read (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
+|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
+|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|sock_connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|name|string|false|none|A unique name for this remote.|
 |metadata_only|boolean|false|none|If True, only metadata about the content will be stored in Pulp. Clients will retrieve content from the remote URL.|
 |git_ref|string|false|none|A git ref. e.g.: branch, tag, or commit sha.|
 
@@ -74494,11 +74494,11 @@ A serializer for Ansible Remotes.
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -74512,11 +74512,11 @@ A serializer for ContainerDistribution.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|base_path|string|false|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
-|name|string|false|none|A unique name. Ex, `rawhide` and `stable`.|
 |content_guard|string(uri)|false|none|An optional content-guard. If none is specified, a default one will be used.|
 |pulp_labels|object|false|none|none|
+|base_path|string|false|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
 |repository|string(uri)¦null|false|none|The latest RepositoryVersion for this Repository will be served.|
+|name|string|false|none|A unique name. Ex, `rawhide` and `stable`.|
 |repository_version|string(uri)¦null|false|none|RepositoryVersion to be served|
 |private|boolean|false|none|Restrict pull access to explicitly authorized users. Defaults to unrestricted pull access.|
 |description|string¦null|false|none|An optional description.|
@@ -74530,11 +74530,11 @@ A serializer for ContainerDistribution.
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }
 
 ```
@@ -74545,11 +74545,11 @@ Serializer for Container Push Repositories.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
-|name|string|false|none|A unique name for this repository.|
 |pulp_labels|object|false|none|none|
 |manifest_signing_service|string(uri)¦null|false|none|A reference to an associated signing service.|
 |description|string¦null|false|none|An optional description.|
+|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
+|name|string|false|none|A unique name for this repository.|
 
 <h2 id="tocS_Patchedcontainer.ContainerRemote">Patchedcontainer.ContainerRemote</h2>
 <!-- backwards compatibility -->
@@ -77050,8 +77050,8 @@ A serializer for Ansible Collections.
 ```json
 {
   "upload": "http://example.com",
-  "file": "string",
   "repository": "http://example.com",
+  "file": "string",
   "name": "string",
   "namespace": "string",
   "version": "string"
@@ -77066,8 +77066,8 @@ A serializer for CollectionVersion Content.
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
 |upload|string(uri)|false|write-only|An uncommitted upload that may be turned into the artifact of the content unit.|
-|file|string(binary)|false|write-only|An uploaded file that may be turned into the artifact of the content unit.|
 |repository|string(uri)|false|write-only|A URI of a repository the new content unit should be associated with.|
+|file|string(binary)|false|write-only|An uploaded file that may be turned into the artifact of the content unit.|
 |name|string|true|none|The name of the collection.|
 |namespace|string|true|none|The namespace of the collection.|
 |version|string|true|none|The version of the collection.|
@@ -77219,28 +77219,28 @@ A serializer for signature models.
 
 ```json
 {
-  "proxy_username": "string",
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "proxy_password": "string",
-  "client_key": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "username": "string",
   "max_retries": 0,
-  "sock_read_timeout": 0,
-  "password": "string",
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "proxy_password": "string",
+  "connect_timeout": 0,
+  "client_key": "string",
+  "url": "string",
+  "proxy_username": "string",
+  "username": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "password": "string",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
@@ -77253,26 +77253,26 @@ A serializer for Git Collection Remotes.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|proxy_username|string¦null|false|write-only|The username to authenticte to the proxy.|
-|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
-|name|string|true|none|A unique name for this remote.|
-|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
-|proxy_password|string¦null|false|write-only|The password to authenticate to the proxy. Extra leading and trailing whitespace characters are not trimmed.|
-|client_key|string¦null|false|write-only|A PEM encoded private key used for authentication.|
-|pulp_labels|object|false|none|none|
-|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
-|username|string¦null|false|write-only|The username to be used for authentication when syncing.|
 |max_retries|integer¦null|false|none|Maximum number of retry attempts after a download failure. If not set then the default value (3) will be used.|
-|sock_read_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_read (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|password|string¦null|false|write-only|The password to be used for authentication when syncing. Extra leading and trailing whitespace characters are not trimmed.|
-|sock_connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
-|url|string|true|none|The URL of an external content source.|
 |client_cert|string¦null|false|none|A PEM encoded client certificate used for authentication.|
+|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
 |headers|[object]|false|none|Headers for aiohttp.Clientsession|
+|proxy_password|string¦null|false|write-only|The password to authenticate to the proxy. Extra leading and trailing whitespace characters are not trimmed.|
+|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|client_key|string¦null|false|write-only|A PEM encoded private key used for authentication.|
+|url|string|true|none|The URL of an external content source.|
+|proxy_username|string¦null|false|write-only|The username to authenticte to the proxy.|
+|username|string¦null|false|write-only|The username to be used for authentication when syncing.|
 |download_concurrency|integer¦null|false|none|Total number of simultaneous connections. If not set then the default value will be used.|
+|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
+|pulp_labels|object|false|none|none|
+|password|string¦null|false|write-only|The password to be used for authentication when syncing. Extra leading and trailing whitespace characters are not trimmed.|
+|sock_read_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_read (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
+|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
+|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|sock_connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|name|string|true|none|A unique name for this remote.|
 |metadata_only|boolean|false|none|If True, only metadata about the content will be stored in Pulp. Clients will retrieve content from the remote URL.|
 |git_ref|string|false|none|A git ref. e.g.: branch, tag, or commit sha.|
 
@@ -77285,26 +77285,26 @@ A serializer for Git Collection Remotes.
 
 ```json
 {
-  "connect_timeout": 0,
-  "ca_cert": "string",
-  "name": "string",
-  "proxy_url": "string",
-  "pulp_labels": {},
-  "total_timeout": 0,
-  "tls_validation": true,
-  "pulp_last_updated": "2019-08-24T14:15:22Z",
-  "pulp_created": "2019-08-24T14:15:22Z",
   "max_retries": 0,
-  "pulp_href": "http://example.com",
-  "sock_read_timeout": 0,
-  "sock_connect_timeout": 0,
-  "rate_limit": 0,
-  "url": "string",
   "client_cert": "string",
+  "rate_limit": 0,
   "headers": [
     {}
   ],
+  "pulp_created": "2019-08-24T14:15:22Z",
+  "connect_timeout": 0,
+  "pulp_last_updated": "2019-08-24T14:15:22Z",
+  "url": "string",
   "download_concurrency": 1,
+  "tls_validation": true,
+  "pulp_labels": {},
+  "pulp_href": "http://example.com",
+  "sock_read_timeout": 0,
+  "proxy_url": "string",
+  "ca_cert": "string",
+  "total_timeout": 0,
+  "sock_connect_timeout": 0,
+  "name": "string",
   "metadata_only": true,
   "git_ref": "string"
 }
@@ -77317,24 +77317,24 @@ A serializer for Git Collection Remotes.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
-|name|string|true|none|A unique name for this remote.|
-|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
-|pulp_labels|object|false|none|none|
-|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
-|pulp_last_updated|string(date-time)|false|read-only|Timestamp of the most recent update of the remote.|
-|pulp_created|string(date-time)|false|read-only|Timestamp of creation.|
 |max_retries|integer¦null|false|none|Maximum number of retry attempts after a download failure. If not set then the default value (3) will be used.|
+|client_cert|string¦null|false|none|A PEM encoded client certificate used for authentication.|
+|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
+|headers|[object]|false|none|Headers for aiohttp.Clientsession|
+|pulp_created|string(date-time)|false|read-only|Timestamp of creation.|
+|connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|pulp_last_updated|string(date-time)|false|read-only|Timestamp of the most recent update of the remote.|
+|url|string|true|none|The URL of an external content source.|
+|download_concurrency|integer¦null|false|none|Total number of simultaneous connections. If not set then the default value will be used.|
+|tls_validation|boolean|false|none|If True, TLS peer validation must be performed.|
+|pulp_labels|object|false|none|none|
 |pulp_href|string(uri)|false|read-only|none|
 |sock_read_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_read (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
+|proxy_url|string¦null|false|none|The proxy URL. Format: scheme://host:port|
+|ca_cert|string¦null|false|none|A PEM encoded CA certificate used to validate the server certificate presented by the remote server.|
+|total_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.total (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
 |sock_connect_timeout|number(double)¦null|false|none|aiohttp.ClientTimeout.sock_connect (q.v.) for download-connections. The default is null, which will cause the default from the aiohttp library to be used.|
-|rate_limit|integer¦null|false|none|Limits requests per second for each concurrent downloader|
-|url|string|true|none|The URL of an external content source.|
-|client_cert|string¦null|false|none|A PEM encoded client certificate used for authentication.|
-|headers|[object]|false|none|Headers for aiohttp.Clientsession|
-|download_concurrency|integer¦null|false|none|Total number of simultaneous connections. If not set then the default value will be used.|
+|name|string|true|none|A unique name for this remote.|
 |metadata_only|boolean|false|none|If True, only metadata about the content will be stored in Pulp. Clients will retrieve content from the remote URL.|
 |git_ref|string|false|none|A git ref. e.g.: branch, tag, or commit sha.|
 
@@ -77581,11 +77581,11 @@ Serializer for Blobs.
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
+  "base_path": "string",
   "repository": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "private": true,
   "description": "string"
@@ -77599,11 +77599,11 @@ A serializer for ContainerDistribution.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|base_path|string|true|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
-|name|string|true|none|A unique name. Ex, `rawhide` and `stable`.|
 |content_guard|string(uri)|false|none|An optional content-guard. If none is specified, a default one will be used.|
 |pulp_labels|object|false|none|none|
+|base_path|string|true|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
 |repository|string(uri)¦null|false|none|The latest RepositoryVersion for this Repository will be served.|
+|name|string|true|none|A unique name. Ex, `rawhide` and `stable`.|
 |repository_version|string(uri)¦null|false|none|RepositoryVersion to be served|
 |private|boolean|false|none|Restrict pull access to explicitly authorized users. Defaults to unrestricted pull access.|
 |description|string¦null|false|none|An optional description.|
@@ -77617,13 +77617,13 @@ A serializer for ContainerDistribution.
 
 ```json
 {
-  "base_path": "string",
-  "name": "string",
   "content_guard": "http://example.com",
   "pulp_labels": {},
   "pulp_created": "2019-08-24T14:15:22Z",
+  "base_path": "string",
   "repository": "http://example.com",
   "pulp_href": "http://example.com",
+  "name": "string",
   "repository_version": "http://example.com",
   "registry_path": "string",
   "namespace": "http://example.com",
@@ -77639,13 +77639,13 @@ A serializer for ContainerDistribution.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|base_path|string|true|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
-|name|string|true|none|A unique name. Ex, `rawhide` and `stable`.|
 |content_guard|string(uri)|false|none|An optional content-guard. If none is specified, a default one will be used.|
 |pulp_labels|object|false|none|none|
 |pulp_created|string(date-time)|false|read-only|Timestamp of creation.|
+|base_path|string|true|none|The base (relative) path component of the published url. Avoid paths that                     overlap with other distribution base paths (e.g. "foo" and "foo/bar")|
 |repository|string(uri)¦null|false|none|The latest RepositoryVersion for this Repository will be served.|
 |pulp_href|string(uri)|false|read-only|none|
+|name|string|true|none|A unique name. Ex, `rawhide` and `stable`.|
 |repository_version|string(uri)¦null|false|none|RepositoryVersion to be served|
 |registry_path|string|false|read-only|The Registry hostname/name/ to use with docker pull command defined by this distribution.|
 |namespace|string(uri)|false|read-only|Namespace this distribution belongs to.|
@@ -77709,11 +77709,11 @@ Serializer for ContainerNamespaces.
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
   "pulp_labels": {},
   "manifest_signing_service": "http://example.com",
-  "description": "string"
+  "description": "string",
+  "retain_repo_versions": 1,
+  "name": "string"
 }
 
 ```
@@ -77724,11 +77724,11 @@ Serializer for Container Push Repositories.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
-|name|string|true|none|A unique name for this repository.|
 |pulp_labels|object|false|none|none|
 |manifest_signing_service|string(uri)¦null|false|none|A reference to an associated signing service.|
 |description|string¦null|false|none|An optional description.|
+|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
+|name|string|true|none|A unique name for this repository.|
 
 <h2 id="tocS_container.ContainerPushRepositoryResponse">container.ContainerPushRepositoryResponse</h2>
 <!-- backwards compatibility -->
@@ -77739,15 +77739,15 @@ Serializer for Container Push Repositories.
 
 ```json
 {
-  "retain_repo_versions": 1,
-  "name": "string",
-  "versions_href": "http://example.com",
-  "latest_version_href": "http://example.com",
   "pulp_labels": {},
   "pulp_created": "2019-08-24T14:15:22Z",
   "manifest_signing_service": "http://example.com",
   "description": "string",
-  "pulp_href": "http://example.com"
+  "pulp_href": "http://example.com",
+  "versions_href": "http://example.com",
+  "retain_repo_versions": 1,
+  "latest_version_href": "http://example.com",
+  "name": "string"
 }
 
 ```
@@ -77758,15 +77758,15 @@ Serializer for Container Push Repositories.
 
 |Name|Type|Required|Restrictions|Description|
 |---|---|---|---|---|
-|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
-|name|string|true|none|A unique name for this repository.|
-|versions_href|string(uri)|false|read-only|none|
-|latest_version_href|string(uri)|false|read-only|none|
 |pulp_labels|object|false|none|none|
 |pulp_created|string(date-time)|false|read-only|Timestamp of creation.|
 |manifest_signing_service|string(uri)¦null|false|none|A reference to an associated signing service.|
 |description|string¦null|false|none|An optional description.|
 |pulp_href|string(uri)|false|read-only|none|
+|versions_href|string(uri)|false|read-only|none|
+|retain_repo_versions|integer¦null|false|none|Retain X versions of the repository. Default is null which retains all versions. This is provided as a tech preview in Pulp 3 and may change in the future.|
+|latest_version_href|string(uri)|false|read-only|none|
+|name|string|true|none|A unique name for this repository.|
 
 <h2 id="tocS_container.ContainerRemote">container.ContainerRemote</h2>
 <!-- backwards compatibility -->
